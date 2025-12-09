@@ -1,0 +1,132 @@
+/* Grundläggande Återställning/Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Kroppen och Typografi */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7; /* Ljus bakgrund */
+    color: #333;
+}
+
+/* Rubriker */
+h1 {
+    color: #4a679e; /* Mörkblå för rubrik */
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    color: #6a9641; /* Grön för sektionsrubriker */
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+/* Header (Sidhuvud) */
+header {
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 5px solid #6a9641;
+}
+
+/* Navigation (Meny) */
+nav {
+    background: #4a679e; /* Mörkblå meny */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #5c83b4; /* Ljusare blå vid hover */
+    border-radius: 4px;
+}
+
+/* Main Innehåll */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.info-section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Faktarutan */
+.fakta-ruta {
+    background-color: #e6f3ff; /* Ljusblå bakgrund */
+    border-left: 5px solid #4a679e;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.fakta-ruta h3 {
+    color: #4a679e;
+    margin-top: 0;
+}
+
+/* Knappen */
+#visa-tips-knapp {
+    background-color: #ffc107; /* Gul knapp */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+#visa-tips-knapp:hover {
+    background-color: #e0a800; /* Mörkare gul vid hover */
+}
+
+/* Galleri Platshållare */
+.bild-platshållare {
+    background-color: #ccc;
+    color: #666;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+/* Footer (Sidfot) */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4a679e;
+    color: #fff;
+    margin-top: 20px;
+}
